@@ -76,6 +76,7 @@ areaplot(wt_area, vf_area, tm1b_area, tpoko_area, type = "box") # boxplot
 areaplot(wt_area, vf_area, tm1b_area, tpoko_area, type = "bar") # barplot
 areaplot(wt_area, vf_area, tm1b_area, tpoko_area, type = "violin") # violin plot
 
+
 #5. statistical
 test(wt_area, vf_area, statistics = "Student") # get p-value of student's t-test
 test(vf_area, tm1b_area, statistics = "Mann") # get p-value of Mann-Whiethy U test
