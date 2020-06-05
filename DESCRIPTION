@@ -1,0 +1,19 @@
+Package: IHCProcessing
+Type: Package
+Title: Processing the CD61 IHC Raw data output from ImageJ
+Version: 0.1.1
+Author: Ruitao Zhang
+Maintainer: Ruitao Zhang <rzhangh49@jhu.edu>
+Description: This R package is used for processing the .csv RAW data output from the ImageJ CD61 IHC recognition. 
+  get organized data for further statistical analysis and plotting in Rstudio or Prism 8.
+Imports: 
+  ggplot2,
+  Rmisc,
+  forcats,
+  dplyr,
+  magrittr,
+  tidyr
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
